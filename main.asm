@@ -1,3 +1,5 @@
-.text 
+section.text 
   main:
-    mov
+    pop %rbp
+    mov %rsp, %rbp
+    sub %rsp, 40
